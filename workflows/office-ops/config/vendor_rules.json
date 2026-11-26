@@ -1,0 +1,122 @@
+{
+  "division": "TWB On Call",
+  "last_updated": "2026-11-26",
+  "extra_cost_keywords": [
+    "TKBM",
+    "MEL",
+    "INAP",
+    "KAWALAN",
+    "BONGKAR",
+    "MUAT"
+  ],
+  "vendors": [
+    {
+      "name": "PT. ANGSANA GLOBAL EXPRESS",
+      "match_keywords": [
+        "ANGSANA GLOBAL EXPRESS",
+        "ANGSANA"
+      ],
+      "short_name_pdf": "ANGSANA",
+      "default_status_resi": "Belum"
+    },
+    {
+      "name": "PT. BOLD",
+      "match_keywords": [
+        "PT. BOLD",
+        "BOLD"
+      ],
+      "short_name_pdf": "BOLD",
+      "default_status_resi": "Belum"
+    },
+    {
+      "name": "PT. K-LOGISTYC (KAMAJAYA)",
+      "match_keywords": [
+        "PT. KAMADJAJA LOGISTIC",
+        "PT. KAMAJAYA LOGISTIC",
+        "PT. K-LOGISTYC (KAMAJAYA)",
+        "KLOG"
+      ],
+      "short_name_pdf": "KLOG",
+      "default_status_resi": "Belum"
+    },
+    {
+      "name": "PT. PERMANA MAJU SENTOSA TRANS",
+      "match_keywords": [
+        "PT. PERMANA MAJU SENTOSA TRANS",
+        "P.M.S.T",
+        "PMST",
+        "GAMBIRI"
+      ],
+      "short_name_pdf": "PMST",
+      "default_status_resi": "Belum"
+    },
+    {
+      "name": "PT. ROCKET GERBANG BERSAMA",
+      "match_keywords": [
+        "PT. ROCKET GERBANG BERSAMA",
+        "RGB"
+      ],
+      "short_name_pdf": "RGB",
+      "default_status_resi": "Belum"
+    },
+    {
+      "name": "PT. CATUR GLOBAL LOGISTIK SPX",
+      "match_keywords": [
+        "SPX",
+        "CGL // SPX"
+      ],
+      "short_name_pdf": "CGL SPX",
+      "default_status_resi": "Digital"
+    },
+    {
+      "name": "PT. CATUR GLOBAL LOGISTIK",
+      "match_keywords": [
+        "PT. CATUR GLOBAL LOGISTIK",
+        "CATUR GLOBAL LOGISTIK",
+        "CGL"
+      ],
+      "short_name_pdf": "CGL",
+      "default_status_resi": "Belum"
+    },
+    {
+      "name": "PT. LOGISLY",
+      "match_keywords": [
+        "PT. LOGISLY",
+        "LOGISLY"
+      ],
+      "short_name_pdf": "LOGISLY",
+      "default_status_resi": "Belum"
+    },
+    {
+      "name": "KARYATI EXPRESS",
+      "match_keywords": [
+        "KARYATI EXPRESS",
+        "KARYATI"
+      ],
+      "short_name_pdf": "KARYATI",
+      "default_status_resi": "Null"
+    },
+    {
+      "name": "PT. INDOTRANS JAYA NUSANTARA",
+      "match_keywords": [
+        "PT. INDOTRANS JAYA NUSANTARA",
+        "INDOTRANS JAYA NUSANTARA",
+        "INDOTRANS"
+      ],
+      "short_name_pdf": "INDOTRANS",
+      "default_status_resi": "Null"
+    },
+    {
+      "name": "PAK JONI",
+      "match_keywords": [
+        "PAK JONI"
+      ],
+      "short_name_pdf": "PAKJO",
+      "default_status_resi": "Null"
+    }
+  ],
+  "default_rule": {
+    "short_name_pdf": "UMUM",
+    "default_status_resi": "Belum"
+  }
+}

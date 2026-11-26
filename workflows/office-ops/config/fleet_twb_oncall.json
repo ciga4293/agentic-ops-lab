@@ -1,0 +1,96 @@
+{
+    "division": "TWB On Call",
+    "last_updated": "2026-11-26",
+    "active_units": [
+        {
+            "nopol_clean": "B9118VEU",
+            "nopol_display": "B 9118 VEU",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9122VEU",
+            "nopol_display": "B 9122 VEU",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9123VEU",
+            "nopol_display": "B 9123 VEU",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9125VEU",
+            "nopol_display": "B 9125 VEU",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9126VEU",
+            "nopol_display": "B 9126 VEU",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9876TEZ",
+            "nopol_display": "B 9876 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9881TEZ",
+            "nopol_display": "B 9881 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9877TEZ",
+            "nopol_display": "B 9877 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9989TEZ",
+            "nopol_display": "B 9989 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9880TEZ",
+            "nopol_display": "B 9880 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9984TEZ",
+            "nopol_display": "B 9984 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9947TEZ",
+            "nopol_display": "B 9947 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9991TEZ",
+            "nopol_display": "B 9991 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9961TEZ",
+            "nopol_display": "B 9961 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9885TEZ",
+            "nopol_display": "B 9885 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9978TEZ",
+            "nopol_display": "B 9978 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9983TEZ",
+            "nopol_display": "B 9983 TEZ",
+            "status": "active"
+        },
+        {
+            "nopol_clean": "B9949TEZ",
+            "nopol_display": "B 9949 TEZ",
+            "status": "active"
+        }
+    ]
+}

@@ -10,6 +10,12 @@
 
 # Staging & sensitive data
 data/staging/*
+workflows/office-ops/input/*
+!workflows/office-ops/input/.gitkeep
+workflows/office-ops/staging/*
+!workflows/office-ops/staging/.gitkeep
+workflows/office-ops/output/*
+!workflows/office-ops/output/.gitkeep
 
 # Logs & caches
 logs/
