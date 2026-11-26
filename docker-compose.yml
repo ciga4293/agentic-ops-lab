@@ -1,0 +1,38 @@
+services:
+  openclaw-sandbox:
+    image: python:3.11-slim
+    container_name: openclaw-sandbox
+    working_dir: /workspace
+    command: ["sleep", "infinity"]
+    restart: unless-stopped
+    volumes:
+      - ./agents/openclaw:/workspace/agents/openclaw
+      - ./workflows:/workspace/workflows
+      - ./data/staging:/workspace/data/staging
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - AGENT_NAME=openclaw
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  hermes-sandbox:
+    image: python:3.11-slim
+    container_name: hermes-sandbox
+    working_dir: /workspace
+    command: ["sleep", "infinity"]
+    restart: unless-stopped
+    volumes:
+      - ./agents/hermes:/workspace/agents/hermes
+      - ./workflows:/workspace/workflows
+      - ./data/staging:/workspace/data/staging
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - AGENT_NAME=hermes
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

@@ -1,0 +1,26 @@
+# Environment secrets & local credentials
+.env
+.env.local
+.env.*.local
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Staging & sensitive data
+data/staging/*
+
+# Logs & caches
+logs/
+*.log
+cache/
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
